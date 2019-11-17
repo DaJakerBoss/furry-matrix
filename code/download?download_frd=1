@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html lang="en">
+    <head>
+        <title>Collin College - CougarWeb</title>
+        
+        <link type="text/css" rel="stylesheet" href="/cas-web/css/cas.css;jsessionid=F0280E7580DE6F968156CA47D484E3FE" />
+        <meta charset="UTF-8" http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" href="/cas-web/favicon.ico;jsessionid=F0280E7580DE6F968156CA47D484E3FE" type="image/x-icon" />
+    </head>
+    <body id="cas" >
+       <div id="header"></div>
+        <div id="content">
+
+
+
+
+
+   
+<!--
+    
+ --> 
+    
+
+            <form id="fm1" class="fm-v clearfix" action="/cas-web/login;jsessionid=F0280E7580DE6F968156CA47D484E3FE?service=https%3A%2F%2Fcollin.instructure.com%2Flogin%2Fcas" method="post">
+                
+                <div class="box" id="login">
+                <!-- Congratulations on bringing CAS online!  The default authentication handler authenticates where usernames equal passwords: go ahead, try it out.  -->
+					<div id="login_header">
+                    <img src="https://erie.collin.edu/cas-web/images/collinsec.png" width="430" height="120" alt="Collin College - Secure Login" />
+					</div>
+					<div id="contact-area">
+                    <div class="logintxt">
+                        Username: 
+                        
+                        
+                       
+                        <input id="username" name="username" tabindex="1" type="text" value="" size="25" autocomplete="false"/>
+                        
+                    </div>
+					<p class="toplnk">&nbsp;</p>
+                    <div class="logintxt">
+                        Password:
+                        <input id="password" name="password" tabindex="2" type="password" value="" size="25"/>
+                    </div>
+                 
+                        
+
+
+                         <p class="toplnk"></p>
+
+                    <div>
+                        <input type="hidden" name="lt" value="LT-2827733-fk39ldacOTqDEE3xu02wPURfOaHt4e" />
+                        <input type="hidden" name="execution" value="e1s1" />
+                        <input type="hidden" name="_eventId" value="submit" />
+
+                        <input class="btn-submit" name="submit_form" accesskey="l" value="" tabindex="4" type="submit" />
+					<p>&nbsp;</p>
+                    </div>
+					<div class="divider">
+					
+					</div>
+					<p class="rss" >This login grants access to CougarWeb, Canvas, CougarConnect,<br /> OrgSync, Student Registration and other Collin systems.</p>
+						<p class="rss" >For added security, close all browsers when you are done.</p>	
+					<div style="clear: both;"></div>
+					<div class="divider"></div>
+					
+<p class="rss"><strong>Need Assistance?</strong>&nbsp&nbsp&nbsp<a href="http://www.collin.edu/cougarweb/userhelp.html" target="_blank">Troubleshooting and Help Guide</a><br /><br />
+<a href="https://vssb.collin.edu/PROD/baninst1.CC_S_PWRESET.landingPage" target="_blank">Self-Service Student Password Reset</a><br />
+Student Support Center: 972-377-1777<br /><br />
+<a href="https://passwordreset.microsoftonline.com/" target="_blank">Self-Service Employee Password Reset</a><br />
+Employee Support Center: 972-548-6555<br />
+</p>
+
+            
+                    <div class="divider">&nbsp;</div>
+					
+					<p></p><p class="rss" style="padding-right:25px;padding-bottom:8px; color:#ECBC00;">By logging in, you agree to adhere to the Collin College policies on <a class="bottomlnk" href="http://pol.tasb.org/Policy/Download/304?filename=CR(LOCAL).pdf" target="_blank">Electronic Communication</a></p>
+            
+			
+                </div>
+			
+					</div>
+			
+					
+					
+
+            </form>
+			
+
+
+                </div>
+
+
+	    
+                            </div>
+            <div id="footer">
+            <p style="float:left;padding-top:2px;padding-left:45px;color:#000;font-size: 8pt;"><a href="http://www.collin.edu/">Back to Collin College</a></p>
+            <p style="float:right;padding-right:25px;padding-top:2px;color:#000;font-size: 8pt;">Copyright © Collin College 2019</p>          
+            </div>
+        </div>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/cas-web/js/cas.js;jsessionid=F0280E7580DE6F968156CA47D484E3FE"></script>
+    </body>
+</html>
+
+
+

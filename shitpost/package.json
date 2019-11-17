@@ -1,0 +1,23 @@
+{
+  "name": "shitposter3000",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/castyte/shitposter3000.git"
+  },
+  "author": "Castyte",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/castyte/shitposter3000/issues"
+  },
+  "homepage": "https://github.com/castyte/shitposter3000#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
