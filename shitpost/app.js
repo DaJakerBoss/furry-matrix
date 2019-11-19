@@ -46,6 +46,16 @@ bot.on('message', async (m) => {
 	if(arguments[1] == "set"){
 	    m.delete()
 	    bot.user.setAvatar(arguments[2]).catch(() =>{m.channel.send("that didn't work"); return 0;}).then(m.channel.send("ok"));
+	} else if(arguments[1] == "refresh"){
+	    m.delete()
+	    copypasta = []
+	    c.fetchMessages({limit: 100}).then(m => m.forEach(m => {
+		if(m.pinned){
+		    copypasta.push(m.content);
+		} else {
+		    m.delete();
+		}
+	    }))
 	} else {
 	    m.channel.send(copypasta[Math.floor(Math.random()*copypasta.length)]);
 	}
